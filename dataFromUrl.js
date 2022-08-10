@@ -1,4 +1,4 @@
-// Get the part of the url that is the path that you search and add that part as an parameter to put inside a hubspot form.
+// Get the part of the url that is in the path that you search, get the word inside that url path and add that part as an parameter to put inside a hubspot form.
 
 let url = window.location.href.replace(/\/$/, ""); // Assign the url to the variable and Remove the last "/" of the Url if this has it.
 
