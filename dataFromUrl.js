@@ -32,10 +32,10 @@ if (url.indexOf(pathToSearch) > -1 && url.indexOf(hubspotPropertyName) == -1) {
 	{/*************** This is the Hubspot form code to incrust inside the Div that contain the old form. it should adapt to the size. ***************/}
 
 	<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js?pre=1"></script>
-	<script>hbspt.forms.create({region}: "na1", portalId: "21915863", formId: "f8dbe190-7e57-4c22-aa6e-b1ee53674ac5" });</script>
+	<script>hbspt.forms.create({region: "na1", portalId: "21915863", formId: "f8dbe190-7e57-4c22-aa6e-b1ee53674ac5" });</script>
 
 	{/************************* This is the Contact Us Form. ***************************/}
 
 	<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js?pre=1"></script>
-	<script>hbspt.forms.create({region}: "na1", portalId: "21915863", formId: "b2a514f0-e95a-4bd6-a571-0c6508c2bdd4" });</script>
+	<script>hbspt.forms.create({region: "na1", portalId: "21915863", formId: "b2a514f0-e95a-4bd6-a571-0c6508c2bdd4" });</script>
 </>;
