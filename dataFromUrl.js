@@ -26,7 +26,7 @@ if (url.indexOf(pathToSearch) > -1 && url.indexOf(hubspotPropertyName) == -1) {
 
 	<script>
 		let w=window.location.href.replace(/\/$/,"");let e="property/";let l="houserequested";if(w.indexOf(e)>-1&&w.indexOf(l)==-1)
-		{let} e=w.substr(w.lastIndexOf("/")+1);let t=new URL(`?${l}=${e}`,window.location.href);window.location.href=t}
+		{let e=w.substr(w.lastIndexOf("/")+1);let t=new URL(`?${l}=${e}`,window.location.href);window.location.href=t}
 	</script>
 
 	{/*************** This is the Hubspot form code to incrust inside the Div that contain the old form. it should adapt to the size. ***************/}
